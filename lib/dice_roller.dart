@@ -10,12 +10,11 @@ class DiceRoller extends StatefulWidget {
   State<DiceRoller> createState() {
     return _DiceRollerState();
   }
-
 }
 
 // private class
 class _DiceRollerState extends State<DiceRoller> {
-  var activeDiceImage = 'assets/images/dice-2.png';
+  var activeDiceImage = 'assets/images/dice-2.png'; // cambiado por ivan
   var currentDiceRoll = 2;
 
   void rollDice() {
@@ -24,32 +23,34 @@ class _DiceRollerState extends State<DiceRoller> {
     });
     // print('Changing image...');
   }
-  
+
   @override
   Widget build(context) {
     return Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Image.asset(
-              'assets/images/dice-$currentDiceRoll.png',
-              width: 200,
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Image.asset(
+          'assets/images/dice-$currentDiceRoll.png', // cambiado por ivan
+          width: 200, // cambiado por ivan
+        ),
+        const SizedBox(height: 20),
+        TextButton(
+          // onPressed: () {}),
+          onPressed: rollDice,
+          style: TextButton.styleFrom(
+            // padding: const EdgeInsets.only(top: 20,),
+            foregroundColor: Colors.white,
+            backgroundColor: Colors.deepPurple, // cambiado por ivan
+            textStyle: const TextStyle(
+              fontSize: 36, // cambiado por ivan
             ),
-            const SizedBox(height: 20),
-            TextButton(
-                // onPressed: () {}),
-                onPressed: rollDice,
-                style: TextButton.styleFrom(
-                  // padding: const EdgeInsets.only(top: 20,),
-                  foregroundColor: Colors.white,
-                  textStyle: const TextStyle(
-                    fontSize: 28,
-                  ),
-                ),
-                child: const Text(
-                  'Roll Dice',
-                  style: TextStyle(color: Colors.white),
-                ))
-          ],
-        );
+          ),
+          child: const Text(
+            'Tirar Dado', // cambiado por ivan
+            style: TextStyle(color: Colors.white),
+          ),
+        )
+      ],
+    );
   }
 }
