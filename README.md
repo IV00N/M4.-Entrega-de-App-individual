@@ -1,16 +1,15 @@
-# my_first_app
+Cambio del texto del botón
+Se cambió el texto del botón de "Roll Dice" a "Tirar Dado" para adaptarlo al idioma español.
+// cambiado por ivan
 
-A new Flutter project.
+Cambio del color del botón
+El color del botón fue modificado a púrpura (Colors.deepPurple) para mejorar el estilo visual.
+// cambiado por ivan
 
-## Getting Started
+Aumento del tamaño del texto del botón
+El texto del botón ahora usa un tamaño de fuente de 36 puntos, lo que mejora su visibilidad.
+// cambiado por ivan
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cambio en el rango del dado
+Se modificó el rango del dado de 1–6 a 1–12 para representar un dado de 12 caras.
+Esto se logró cambiando la instrucción:
