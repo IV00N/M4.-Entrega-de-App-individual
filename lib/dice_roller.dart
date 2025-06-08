@@ -19,7 +19,7 @@ class _DiceRollerState extends State<DiceRoller> {
 
   void rollDice() {
     setState(() {
-      currentDiceRoll = randomizer.nextInt(6) + 1; // Value between 1 and 6
+      currentDiceRoll = randomizer.nextInt(12) + 1; // Value between 1 and 12
     });
     // print('Changing image...');
   }
