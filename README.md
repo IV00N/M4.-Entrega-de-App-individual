@@ -1,20 +1,16 @@
-# M4.-Entrega-de-App-individual
-Act individual
-Cambio del texto del botón
-Se modificó el texto original "Roll Dice" por "Tirar Dado" para adaptarlo al idioma español.
-// cambiado por ivan
+# my_first_app
 
-Cambio del color del botón
-El botón ahora utiliza un color de fondo púrpura (Colors.deepPurple) para darle un estilo más distintivo.
-// cambiado por ivan
+A new Flutter project.
 
-Aumento del tamaño del texto del botón
-Se aumentó el tamaño del texto a 36 puntos para mejorar la legibilidad y presencia visual.
-// cambiado por ivan
+## Getting Started
 
-Conservación de la imagen del dado original
-Se mantuvo la ruta de imagen original 'assets/images/dice-$currentDiceRoll.png' para asegurar compatibilidad con los archivos existentes.
-// cambiado por ivan (en el Image.asset y en la variable de imagen)
+This project is a starting point for a Flutter application.
 
-Conservación de comentarios originales del código
-Todos los comentarios originales se conservaron sin alteraciones, y los cambios nuevos fueron marcados con // cambiado por ivan para mantener claridad en el historial de ediciones.
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
